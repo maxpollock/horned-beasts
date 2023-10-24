@@ -11,13 +11,13 @@ body {
 
 h1 {
   width: 100%;
-  margin: 2rem auto;
+  margin: 2rem auto 0rem auto;
 }
 
 img {
   width: 200px;
   display: flex;
-  margin: 2rem auto 0.5rem auto;
+  margin: 2rem auto;
 }
 
 p {
@@ -48,7 +48,7 @@ span img {
   width: 20px;
   margin-top: 0.5rem;
   cursor: pointer;
-  transition: 0.5s;
+  transition: 0.4s;
 }
 
 span img:hover {
@@ -57,4 +57,9 @@ span img:hover {
 
 .like-text {
   font-size: 1.1rem;
+}
+
+h4 {
+  font-size: 0.9rem;
+  color: darkblue;
 }
