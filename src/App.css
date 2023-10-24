@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
 }
 
 body {
@@ -17,12 +17,13 @@ h1 {
 img {
   width: 200px;
   display: flex;
-  margin: 2rem auto .5rem auto;
+  margin: 2rem auto 0.5rem auto;
 }
 
 p {
   margin: 0;
   padding-top: 0;
+  margin-bottom: 2rem;
 }
 
 h2 {
@@ -34,4 +35,26 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: end;
+}
+
+.beast-container {
+  width: 35%;
+  border-bottom: 1px dotted black;
+  margin: 3rem auto;
+  padding: 20px;
+}
+
+span img {
+  width: 20px;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+span img:hover {
+  transform: scale(1.1);
+}
+
+.like-text {
+  font-size: 1.1rem;
 }
