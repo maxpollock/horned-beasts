@@ -1,8 +1,6 @@
 import { useState } from "react";
 
 export default function ClickBtn({}) {
-  let clickText = "Darkmode";
-
   const [toggle, changeToggle] = useState(true);
 
   function handleClick() {
