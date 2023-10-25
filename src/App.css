@@ -90,4 +90,5 @@ button:hover {
   background: #15616d;
   color: white;
   border: 2px solid #15616d;
+  transform: scale(0.95);
 }

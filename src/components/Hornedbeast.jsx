@@ -1,7 +1,13 @@
 import { useState } from "react";
 import like from "../assets/images/like.png";
 
-export default function Hornedbeast(props) {
+export default function Hornedbeast({
+  key,
+  image_url,
+  title,
+  description,
+  keyword,
+}) {
   const [favs, setFavs] = useState(0);
 
   function addFavs() {
@@ -10,14 +16,9 @@ export default function Hornedbeast(props) {
 
   return (
     <div className="beast-container">
-      <h2 key={props._id}>{props.title}</h2>
-      <img
-        key={props._id}
-        src={props.image_url}
-        alt={props.keyword}
-        title={props.title}
-      />
-      <p key={props._id}>{props.description}</p>
+      <h2 key={key}>{title}</h2>
+      <img key={key} src={image_url} alt={keyword} title={title} />
+      <p key={key}>{description}</p>
       <p className="like-text">
         {favs}
         <span>
