@@ -92,3 +92,26 @@ button:hover {
   border: 2px solid #15616d;
   transform: scale(0.95);
 }
+
+.selected {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.selected img {
+  display: flex;
+  width: 700px;
+  height: auto;
+}
+
+.selected button {
+  position: absolute;
+  bottom: 50px;
+}

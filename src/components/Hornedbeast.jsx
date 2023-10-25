@@ -6,6 +6,7 @@ export default function Hornedbeast({
   title,
   description,
   keyword,
+  handleModal,
 }) {
   const [favs, setFavs] = useState(0);
 
@@ -24,6 +25,9 @@ export default function Hornedbeast({
           <img onClick={addFavs} src={like} alt="like" />
         </span>
       </p>
+      <button onClick={() => handleModal(image_url)}>
+        Make the beast bigger!
+      </button>
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import Hornedbeast from "./Hornedbeast";
 import beasts from "../data.json";
 
-export default function Gallery() {
+export default function Gallery({ handleModal, modal }) {
   return (
     <>
       {beasts.map((beast) => (
@@ -11,6 +11,8 @@ export default function Gallery() {
           title={beast.title}
           description={beast.description}
           keyword={beast.alt}
+          handleModal={handleModal}
+          modal={modal}
         />
       ))}
     </>
