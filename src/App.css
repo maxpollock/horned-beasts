@@ -17,7 +17,7 @@ h1 {
 img {
   width: 300px;
   display: flex;
-  margin: 2rem auto;
+  margin: 1.5rem auto;
   border-radius: 15px;
 }
 
@@ -114,4 +114,21 @@ button:hover {
 .selected button {
   position: absolute;
   bottom: 50px;
+}
+
+form {
+  margin-top: 1.5rem;
+  color: black;
+  font-family: "Roboto Slab", serif;
+  position: relative;
+  top: 80px;
+}
+
+select {
+  margin-left: 0.5rem;
+  border-radius: 10px;
+  border: 2px solid black;
+  width: 80px;
+  cursor: pointer;
+  text-align: center;
 }

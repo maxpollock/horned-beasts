@@ -6,11 +6,9 @@ export default function ClickBtn({}) {
   function handleClick() {
     if (toggle === true) {
       document.getElementById("body").classList.toggle("dark");
-      console.log("dark");
       changeToggle(!toggle);
     } else {
       document.getElementById("body").classList.toggle("light");
-      console.log("light");
     }
   }
 
