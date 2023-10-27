@@ -13,7 +13,7 @@ export default function Form({ setHorns }) {
           <option value="2">2</option>
           <option value="3">3</option>
           <option value="100">100</option>
-          <option value="">View All</option>
+          <option value="" selected>View All</option>
         </select>
       </form>
     </>
